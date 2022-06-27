@@ -5,5 +5,7 @@ class Author < ApplicationRecord
          :recoverable, :rememberable, :validatable
          # , :confirmable , :trackable,
 
+  has_many :posts
+
 
 end
